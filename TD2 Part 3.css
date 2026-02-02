@@ -1,0 +1,27 @@
+body{
+    display:flex;
+    flex-direction:row;
+    background-color: antiquewhite;
+}
+h1,img,h2,dowload{
+    display:flex;
+    flex-direction: column;
+    justify-self: center;
+}
+p{
+    display:flex;
+    justify-content: center;
+}
+details{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
