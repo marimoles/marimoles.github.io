@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;}
+
+main{background-color:aliceblue}
+
+header,footer{
+    text-align: center;
+    border: 1px solid darkblue;
+    background-color: lightskyblue;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:15px;
+    margin-bottom:15px;}
+
+h1{color: blue;}
+a{color:blue}
+div{text-align: center;}
+details{text-align: center;}
+
+.av-liste{margin-bottom: 1px;}
+.liste{margin-top: 1px;}
+
+a:hover{color:aquamarine}
+
+button:hover{color: aquamarine;}
+#cv:hover{color:aqua}
+
+#media:active{font-size: x-small;}
