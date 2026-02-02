@@ -1,3 +1,51 @@
 body {
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+}
+header,footer {
+    display: flex;
+    background-color: darksalmon;
+    justify-content: right;
+}
+h1{
+    justify-content: center;
+    padding: 5pix;
+}
+nav a{
+    display:flex;
+    border:10pix;
+    padding:5pix;
+    align-content: center;
+    background-color: salmon;
+}
+main{
+    display:flex;
+    flex-direction:row;
+    flex: 1;
+    background-color: floralwhite;
+}
+article{
+    flex: 70%;
+}
+img {
+    max-width:100pix;
+}
+footer{
+    flex-direction: column;
+}
+h2{
+    display:flex;
+    border:20pix;
+    padding:10pix;
+    align-content: center;
+    border-color: sandybrown;
+}
+p{
+    display:flex;
+    border:30pix;
+    padding:15pix;
+    align-content: center;
+    border-color: burlywood;
 }
